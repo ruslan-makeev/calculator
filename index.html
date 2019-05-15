@@ -4,15 +4,45 @@
 <head>
   <meta charset="utf-8">
   <link href="styles/main.css" rel="stylesheet" type="text/css" />
-  <title>Ruslan Makeev Calculator</title>
+  <title>Calculator</title>
 </head>
+<script type = "text/javascript">
+  function myclick(a){
+    myform.display.value += a;
+  }
+  function equalto(){
+    myform.display.value = eval(myform.display.value);
+  }
+  function ac(){
+    myform.display.value = '';
+  }
+  function backspace(){
+    var beforenum = myform.display.value;
+    myform.display.value = beforenum.substr(0, beforenum.lenghth - 1);
+  }
+</script>
+<body>
+  <form name="myform">
+    <input type="text" name="display"><br>
+    <input type="button" name="btn7" value="7" onclick="myclick('7')">
+    <input type="button" name="btn8" value="8" onclick="myclick('8')">
+    <input type="button" name="btn9" value="9" onclick="myclick('9')">
+    <input type="button" name="btnadd" value="+" onclick="myclick('+')"><br>
+    <input type="button" name="btn4" value="4" onclick="myclick('4')">
+    <input type="button" name="btn5" value="5" onclick="myclick('5')">
+    <input type="button" name="btn6" value="6" onclick="myclick('6')">
+    <input type="button" name="btmin" value="-" onclick="myclick('-')"><br>
+    <input type="button" name="btn1" value="1" onclick="myclick('1')">
+    <input type="button" name="btn2" value="2" onclick="myclick('2')">
+    <input type="button" name="btn3" value="3" onclick="myclick('3')">
+    <input type="button" name="btnmult" value="*" onclick="myclick('*')"><br>
+    <input type="button" name="btn0" value="0" onclick="myclick('0')">
+    <input type="button" name="btndot" value=" ." onclick="myclick('.')">
+    <input type="button" name="btnequ" value="=" onclick="equalto('')">
+    <input type="button" name="btndiv" value="/" onclick="myclick('/')"><br>
+    <input type="button" name="btnback" value="BACK" onclick="backspace()">
+    <input type="button" name="btnclear" value="CLEAR" onclick="ac()">
 
-<body  backgroundcolor="silver">
-  <center><br>
-
-  <h1> <b> <font color ="black" style = "font-size:65">JS Calculator</font></b></h1>
-  <hr size=20 color ="red">
-      </u> </em> </h1>
 
   <div>
 
