@@ -1,0 +1,10 @@
+html, body {
+    background-image: color:#9f9e96;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+td {
+    width: 25%;
+}
