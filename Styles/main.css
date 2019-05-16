@@ -1,10 +1,17 @@
 html, body {
-    background-image: color:#9f9e96;
+    background-color: #c2c1be;
 }
-table {
-    table-layout: fixed;
-    width: 100%;
-}
+
+table.center {
+    background-color: #4e4d5a;
+    border:2px solid;
+    padding:10px 40px; 
+    width:200px;
+    resize:both;
+    overflow:auto;
+  }
 td {
-    width: 25%;
-}
+    padding: 3px;
+    text-align: left;
+  }  
+

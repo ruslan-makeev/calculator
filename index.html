@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+<!--- This calculator works using 'eval' command --->
 <head>
-  <meta charset = "utf-8">
-  <link rel="stylesheet" href="Styles/main.css" type="text/css" />
+  <meta charset = "UTF-8">
+  <link rel="stylesheet" href="Styles/main.css" type="text/css">
   <title>Calculator</title>
+  <h2>My Calculator</h2>
 </head>
 <script type="text/javascript">
   function myclick(a) {
@@ -18,16 +19,17 @@
   }
   function backspace() {
     var beforenum = myform.display.value;
-    myform.display.value = beforenum.substr(0, beforenum.lenghth - 1);
+    myform.display.value = beforenum.substr(0, beforenum.length - 1);
   }
 </script>
 
 <body>
   <form name="myform">
-    <table>
+    <table class="center">
+      <thead> It's ugly but it works =)</thead> 
       <tr>
         <td>
-          <input type="text" name="display"><br>
+          <input type="text" name="display" id="display" disabled><br>
         </td>
       </tr>
       <tr>
@@ -73,14 +75,9 @@
       </tr>
     </table>
   </form>
-  <div>
-
-  </div>
-
 </body>
 <footer>
-  <h3>
-  </h3>
+  
 </footer>
 
 </html>
