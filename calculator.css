@@ -1,0 +1,33 @@
+    .background {
+        font-family: 'Inconsolata', monospace;
+        color: #555;
+    }
+    body {
+        background-color: #729fe2;
+    }
+    .container {
+        width: 320px;
+        background-color: rgb(18, 181, 231);
+        margin: 120px auto;
+    }
+    table {
+        width: 100%;
+        border-color: #0346ff;
+    }
+    td {
+        width: 25%;
+    }
+    button {
+        width: 100%;
+        height: 70px;
+        font-size: 24px;
+        background-color: rgb(212, 237, 240);
+        border: none;
+    }
+    #dataInput {
+        height: 120px;
+        font-size: 40px;
+        vertical-align: bottom;
+        text-align: right;
+        padding-right: 16px;
+        background-color: rgb(212, 237, 240);
