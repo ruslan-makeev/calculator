@@ -10,7 +10,7 @@ function pushBtn(obj) {
     var div = new Function('a','b','return a / b');
     if (pushed == '=') {
         // Calculate
-        dataInput.innerHTML = /*eval*/(dataInput.innerHTML);
+        dataInput.innerHTML = FUNCTION CONSTRUCTOR (dataInput.innerHTML);
     } else if (pushed == 'AC') {
         // All Clear
         dataInput.innerHTML = '0';
