@@ -1,0 +1,34 @@
+    .background {
+        font-family: 'Lucida Console', Monaco, monospace;
+        color: #555;
+        }
+    body {
+        background-color: #729fe2;
+    }
+    .container {
+        width: 315px;
+        background-color: rgb(18, 181, 231);
+        margin: 70px auto;
+    }
+    table {
+        width: 100%;
+        border-color: #0346ff;
+    }
+    td {
+        width: 25%;
+    }
+    /* Lets make a burning look buttons and display =) */
+    button {
+        width: 100%;
+        height: 70px;
+        font-size: 35px;
+        background-image: radial-gradient(circle, red, #aeecf5, rgb(78, 181, 250));
+        border: none;
+    }
+    #dataInput {
+        height: 80px;
+        font-size: 50px;
+        vertical-align: bottom;
+        text-align: right;
+        padding-right: 16px;
+        background-image: linear-gradient(360deg, rgb(255, 118, 118),#12b5e7);
